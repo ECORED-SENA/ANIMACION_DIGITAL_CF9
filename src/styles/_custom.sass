@@ -1,0 +1,44 @@
+.contenedor-imagenes
+  position: relative
+
+  .animation-girl
+    position: absolute
+    width: 700px
+    height: 245px
+    background-image: url('../assets/curso/animation-banner.svg')
+    background-size: 730px
+    animation: jump 1.5s steps(6) infinite
+    transform: scale(.37) perspective(40cm) rotateX(0deg) rotateY(-30deg) rotateZ(-3deg) 
+    transform-style: preserve-3d
+    top: 50px
+    left: -101px
+    @media (max-width: $bp-max-lg)
+      transform: scale(.26) perspective(40cm) rotateX(0deg) rotateY(-30deg) rotateZ(-3deg) 
+      transform-style: preserve-3d
+      top: -10px
+      left: -176px
+
+  
+@keyframes jump
+  0%
+    background-position: 0px
+  100%
+    background-position: 713px
+
+// FONDO PARA VIDEOS -------------------------
+.bg-video
+  background-image: url(../assets/curso/bg-video.svg)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: 100 100
+  width: 100%
+.img-color
+  img:first-child
+      display: none  
+  img:last-child
+      display: block
+  &:hover
+    img:first-child
+      display: block  
+    img:last-child
+      display: none
