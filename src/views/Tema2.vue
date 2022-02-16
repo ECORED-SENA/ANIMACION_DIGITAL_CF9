@@ -6,9 +6,120 @@
       .titulo-principal__numero
         span 2
       h1 El producto final renderizado
-
-
-
+    .row.mb-5.align-items-center
+      .col-lg-6
+        p La postproducción, etapa final de la animación digital persigue el objetivo de mejorar todo lo que se ha hecho previamente en el proceso, para lo cual se revisan cada uno de los aspectos y elementos que componen la animación: duración de cada escena, comportamiento de la luz, movimiento, etc. Para que la historia que se cuenta y el mensaje que se transmite pueda llegar al usuario que lo visualiza todos estos elementos deben estar aplicados correctamente y adecuados a las necesidades de la animación. 
+      .col-lg-6: img(src='@/assets/curso/48.png')
+    p.mb-5 Para la postproducción audiovisual se deberá seguir una serie de pasos o fases que se muestran a continuación:
+    SlyderB.mb-5(:datos="datosSlyder")
+    .row.mb-5.justify-content-center
+      .col-lg-5.mb-3
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/57.jpg' alt='AvatarTop' style='width:505px')
+          .tarjetas-up_card.p-4
+            .title.d-flex.align-items-center.mb-4
+              span.c--4
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+              h4.mb-0 Renderizado gratuito de videos
+            p Principales programas gratuitos para renderizar videos:
+            .row
+              .col-7
+                ol.lista-ol--cuadro
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span A
+                    | Blender
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span B
+                    | Lightworks
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span C
+                    | Online Video Maker
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span D
+                    | Shotcut
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span E
+                    | VSDC Free Video Editor
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span F
+                    | Machete Video Editor Lite
+              .col-5
+                ol.lista-ol--cuadro
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span G
+                    | Avidemux
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span H
+                    | HitFilm Express
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span I
+                    | DaVinci Resolve
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span J
+                    | Openshot
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span K
+                    | iMovie
+      .col-lg-5.mb-3
+        .tarjetas-up
+          img(src='@/assets/curso/58.jpg' alt='AvatarTop' style='width:505px')
+          .tarjetas-up_card.p-4
+            .title.d-flex.align-items-center.mb-4
+              span.c--4
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+              h4.mb-0 Renderizado gratuito de animaciones
+            p Principales programas gratuitos para renderizar animación:
+            .row
+              .col-6
+                ol.lista-ol--cuadro
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span A
+                    | Blender
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span B
+                    | Clara.io
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span C
+                    | Daz3D
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span D
+                    | Houdini Apprentice
+              .col-6
+                ol.lista-ol--cuadro
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span E
+                    | Boats Animator
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span F
+                    | Character Animator
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span G
+                    | K-3D
+                  li.mb-1 
+                    .lista-ol--cuadro__vineta
+                      span H
+                    | Keyshot
 </template>
 
 <script>
@@ -21,28 +132,52 @@ export default {
     mostrarIndicador: true,
     datosSlyder: [
       {
-        titulo: 'El diseño de sonido',
+        titulo: 'Comprobación de imponderabilidad',
         texto:
-          'El diseño de sonido, que consiste en la creación de todo el ambiente sonoro para un medio audiovisual, ya sea cine, tv, web-streaming, etc.',
-        imagen: require('@/assets/curso/84.jpg'),
+          'Cuando se comprueba que todo está correcto, como se deseaba o se pensó, se inicia el renderizado, proceso en el que se genera la pieza final con el formato o los formatos que se necesiten.',
+        imagen: require('@/assets/curso/49.jpg'),
       },
       {
-        titulo: 'Interacción entre audio y video',
+        titulo: 'Conclusión de la edición',
         texto:
-          'Junto a los elementos visuales, una de las áreas más importantes es la interacción entre audio y video, que tiene por fin que el espectador logre involucrarse por completo en la situación y/o experiencia que se quiere proporcionar.',
-        imagen: require('@/assets/curso/85.jpg'),
+          'El renderizado es un proceso técnico que se realiza a través de software específico como por ejemplo Blender, y que permite concluir la edición y posterior exportación de los productos audiovisuales a un medio previamente definido.',
+        imagen: require('@/assets/curso/50.jpg'),
       },
       {
-        titulo: 'Diseño sonoro',
+        titulo: 'Modificaciones o inclusiones al parámetro inicial',
         texto:
-          'En el diseño sonoro se tienen en cuenta cuatro aspectos principales: diálogo, efectos, música y ambiente; estos son conocidos, técnicamente, como planos sonoros y aportan realismo a la imagen.',
-        imagen: require('@/assets/curso/86.jpg'),
+          'Este proceso genera una imagen u objeto a partir de una información ya existente sobre la que se realizarán modificaciones, cambios o inclusiones en los parámetros iniciales; estos son permitidos gracias a los programas de edición y postproducción. ',
+        imagen: require('@/assets/curso/51.jpg'),
       },
       {
-        titulo: 'Edición de sonido y mezcla',
+        titulo: 'Renderizado',
         texto:
-          'El diseño sonoro trabaja con la edición de sonido y la mezcla. Con el paso del tiempo, las tareas de un editor y un mezclador se han ido fusionando y existe una zona en la que ambas labores se mezclan.',
-        imagen: require('@/assets/curso/87.jpg'),
+          'En el momento en que estos cambios se quieren convertir en una imagen definitiva, se realiza el renderizado.',
+        imagen: require('@/assets/curso/52.jpg'),
+      },
+      {
+        titulo: 'Animación definitiva',
+        texto:
+          'Este proceso genera la animación final basada en parámetros dados a las diferentes capas y modos de fusión entre ellas, así mismo, los parámetros establecidos asignados; para que el clip de video resultante pueda ser visto con todos los elementos integrados fluidamente y ser llevado a diferentes plataformas, teniendo en cuenta, también, parámetros de salida asignados al momento de renderizar.',
+        imagen: require('@/assets/curso/53.jpg'),
+      },
+      {
+        titulo: 'Necesidad del renderizado',
+        texto:
+          'Solo hasta realizar el render, podrá decirse que el producto está completo; de no hacerlo, cabe el riesgo de realizar la exportación con errores gráficos y de audios. La renderización de vídeos es fundamental para compartir productos en redes sociales, esto permite cambios y adaptar medidas y peso requeridos por cada site. ',
+        imagen: require('@/assets/curso/54.jpg'),
+      },
+      {
+        titulo: 'Proceso esforzado',
+        texto:
+          'En la mayoría de programas de edición y postproducción de video, se trata de un proceso que puede durar horas, sobre todo si se trata de productos audiovisuales de gran peso como largometrajes, aunque el proceso también adapta el producto a un formato más comprimido de peso, según el medio de difusión, para que se pueda visualizar correctamente.',
+        imagen: require('@/assets/curso/55.jpg'),
+      },
+      {
+        titulo: 'Renderizado de animación 2D y 3D',
+        texto:
+          'Además de los videos, las animaciones 2D y 3D requieren ser renderizadas, ya que el proceso permite el trabajo por capas, que crea modelos animados más realistas posibilitando incluir texturas, sombras o cualquier otro efecto a las distintas capas. Renderizar un vídeo animado es un proceso habitual y que todo técnico de edición de vídeo debe conocer.',
+        imagen: require('@/assets/curso/56.jpg'),
       },
     ],
   }),
@@ -113,9 +248,15 @@ export default {
     background-color: rgba(255, 234, 203,0.85)
 
       transition: opacity .3s ease-in-out
+  i:last-child
+      display: none
   &:hover
     .tarjetas-up_card
-      bottom: -35%
+      bottom: -30%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
 .vr
   i
     color: #D44F4A !important
@@ -168,4 +309,9 @@ export default {
   color: white !important
 .tabs-a__tab
   background-color: #F4DCC0
+.lista-ol--cuadro__vineta
+  background-color: $color-primario
+  color: white
+  border-radius: 4px
+  font-weight: bold
 </style>

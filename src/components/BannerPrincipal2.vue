@@ -16,7 +16,11 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         .contenedor-imagenes
-          .animation-girl
+          .imagen_flotante_1: img(src='@/assets/curso/float1.svg')
+          .imagen_flotante_2: img(src='@/assets/curso/float2.svg')
+          .imagen_flotante_3: img(src='@/assets/curso/float3.svg')
+          .imagen_flotante_4: img(src='@/assets/curso/float4.svg')
+          .imagen_flotante_5: img(src='@/assets/curso/float5.svg')
           img(:src="globalData.imagenBannerPrincipal")
 </template>
 
@@ -97,74 +101,49 @@ export default {
   position: relative
 .imagen_flotante
   &_1
-    animation: bounceLeft 1s ease-out infinite alternate
+    animation: float 2s ease-out infinite alternate
+    animation-delay: 0.2s
     position: absolute
     transform-origin: top
-    @media (min-width: 996px)
-      width: 81px
-      top: 2px
-      left: 10px
-    @media (min-width: 1202px)
-      width: 98px
-      top: 2px
-      left: 10px
-    @media (min-width:1400px)
-      width: 116px
-      top: 2px
-      left: 12px
+    width: 52px
+    left: 2%
+    bottom: 20%
   &_2
-    transform-origin: top
-    animation: bounceRight 1s ease-out 1s infinite alternate
+    animation: float 2s ease-out infinite alternate
+    animation-delay: 1s
     position: absolute
-    @media (min-width: 996px)
-      width: 81px
-      top: 2px
-      left: 262px
-    @media (min-width: 1202px)
-      width: 98px
-      top: 2px
-      left: 318px
-    @media (min-width: 1400px)
-      width: 116px
-      top: 2px
-      left: 374px
+    transform-origin: top
+    width: 42px
+    left: 17%
+    top: 1%
+  &_3
+    animation: float 2s ease-out infinite alternate
+    animation-delay: 0.8s
+    position: absolute
+    transform-origin: top
+    width: 42px
+    left: 48%
+    bottom: 7%
+  &_4
+    animation: float 2s ease-out infinite alternate
+    animation-delay: 1.5s
+    position: absolute
+    transform-origin: top
+    width: 52px
+    left: 78%
+    top: 8%
+  &_5
+    animation: float 2s ease-out infinite alternate
+    animation-delay: 0.8s reverse
+    position: absolute
+    transform-origin: top
+    width: 42px
+    left: 90%
+    bottom: 15%
 
-@keyframes rotate1
-	-100%
-		transform: rotate(0deg)
-
-	25%
-		transform: rotate(50deg)
-
-	50%
-		transform: rotate(0deg)
-@keyframes rotate2
-	45%
-		transform: rotate(0deg)
-
-	75%
-		transform: rotate(-50deg)
-
-	100%
-		transform: rotate(0deg)
-@keyframes bounceLeft
+@keyframes float
   0%
-    transform: rotate(0deg);
-
-  50%
-    transform: rotate(0deg);
-
+    transform: translateY(0)
   100%
-    transform: rotate(35deg);
-
-
-@keyframes bounceRight
-  0%
-    transform: rotate(0deg);
-
-  50%
-    transform: rotate(0deg);
-
-  100%
-    transform: rotate(-35deg);
+    transform: translateY(-10px)
 </style>

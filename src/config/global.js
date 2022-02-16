@@ -23,32 +23,38 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'La composición digital',
+        titulo: 'Formatos de salida y exportación de productos audiovisuales ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Tipos de composición',
+            titulo: '<i>Códec</i> y tipos de <i>códec</i>',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Reglas de la composición digital',
+            titulo: 'Formatos de video',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Técnicas de composición',
+            titulo: 'Formatos de imagen',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Software de composición',
+            titulo: 'Formatos de video para difusión en redes sociales',
             hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Resoluciones de pantallas y <i>aspect</i> ratio',
+            hash: 't_1_5',
           },
         ],
       },
@@ -56,22 +62,8 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Edición de audio y vídeo',
+        titulo: 'El producto final renderizado',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Edición de video',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Edición de audio',
-            hash: 't_2_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -116,116 +108,65 @@ export default {
   referencias: [
     {
       referencia:
-        'Armenteros, M. (2011). <em>Composición digital</em>. EB Archivos.',
-      link: '',
-    },
-    {
-      referencia:
-        'Cámara, S. (2006). <em>El dibujo animado.</em> Parramón Ediciones, S.A.',
-      link: '',
-    },
-    {
-      referencia:
-        'Fernández, F. y Martínez, J. (1999). <em>Manual básico de lenguaje audiovisual y narrativa audiovisual</em>. Paidós.',
-      link: '',
-    },
-    {
-      referencia:
-        'Flórez, H. M. (2019). <em>Narrativa visual: Layout y composición como un storytelling</em>. Universidad Mayor.',
-      link: '',
-    },
-    {
-      referencia: 'La Escala de Planos. (2010). Universitat de Valencia. ',
-      link: 'https://www.uv.es/asamar4/exelearning/24_la_escala_de_planos.html',
-    },
-    {
-      referencia:
-        'Marqués, P. (1995). <em>Introducción al lenguaje audiovisual.</em>',
-      link: 'http://peremarques.pangea.org/avmulti.htm#av',
-    },
-    {
-      referencia:
-        'Millerson, G. (1983). <em>Técnicas de Realización y Producción en televisión</em>. IORTV.',
-      link: '',
-    },
-    {
-      referencia:
-        'Racionero, A. (2008). <em>El lenguaje cinematográfico</em>. Editorial UOC.',
-      link: '',
-    },
-    {
-      referencia:
-        'Sánchez, J. (2016). <em>>nálisis de la composición digital para la realización de efectos digitales en los casos de The Martian (2015) y Mad Max: Fury Road (2015.)</em> Universidad Politécnica de Valencia.',
-      link: '',
+        'Monge, B. (2015). Tratamiento informático de la información. RA-MA Editorial. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/62486?page=296',
     },
   ],
   glosario: [
     {
-      termino: 'Composición',
-      significado:
-        'Creación de productos a partir de manipular y combinar elementos de diferentes fuentes o herramientas digitales, con el fin de generar piezas homogéneas que transmitan la sensación de unidad.',
+      termino: 'Aspect ratio',
+      significado: 'Define la relación entre el ancho y el alto de la imagen.',
     },
     {
-      termino: 'Campo',
+      termino: 'Códec',
       significado:
-        'Es el espacio definido por el ángulo de visión de la cámara y, por lo tanto, es el que contiene todos los elementos que comprende el encuadre. En el campo se identifica todo aquello que aparece en el cuadro, todo lo que vemos y escuchamos en pantalla.',
+        'Algoritmo diseñado para codificar señales de datos digitales comprimiendo y descomprimiendo la información, durante la reproducción, por ejemplo, de un video.',
     },
     {
-      termino: 'Diseño de sonido',
-      significado:
-        'Consiste en la creación de todo el ambiente sonoro para un medio audiovisual ya sea cine, tv, web-streaming.',
+      termino: 'Formato',
+      significado: 'Códec + contenedor = formato de video.',
     },
     {
-      termino: 'Encuadre ',
+      termino: 'Píxeles',
       significado:
-        'Son todos los elementos capturados por el ángulo de visión del objetivo de la cámara y que, en consecuencia, son el contenido del campo. Está delimitado por sus cuatro lados; el fondo más el límite de la cámara. En otras palabras es el lienzo de trabajo.',
+        'La unidad más pequeña de una imagen formada por un cuadrado, al unir esta pieza única que contiene información de colores y valores, con otras unidades se forman las imágenes.',
     },
     {
-      termino: 'Narrativa audiovisual',
+      termino: 'Resolución',
       significado:
-        'Las imágenes en movimiento, asumen el espacio en dos dimensiones y componen la realidad mediante encuadres o planos fijos y puntos de vista o ángulos de visión.',
-    },
-    {
-      termino: 'Reglas de la composición',
-      significado:
-        'Conjunto de directrices orientadas a conservar cierta perspectiva con la manera en que se produce la visión humana y que, aplicadas a la composición, producen mejores resultados',
-    },
-    {
-      termino: '<em>Software</em> de composición por nodos',
-      significado:
-        'La distribución de los elementos del programa es parecida; existe un visor y un panel de propiedades, pero la línea de tiempos con nodos difiere bastante de la de las capas.',
+        'Tiene que ver con el número total de píxeles que pueden ser mostrados en una pantalla, y que determina el tamaño de las imágenes en píxeles horizontales y verticales.',
     },
   ],
   complementario: [
     {
-      texto: 'U-tad. (2021). ¿Sabes qué es la Composición Digital? ',
-      tipo: 'Página Web',
-      link: 'https://u-tad.com/sabes-la-composicion-digital/',
+      texto:
+        'Melenchon, J. (2013). Programación en la web. [Web log post]. Multimedia.uoc.  ',
+      tipo: 'Blog',
+      link: 'http://multimedia.uoc.edu/blogs/fem/es/',
     },
     {
-      texto:
-        'Cortés, J. (2021). Rompiendo las reglas de la Composición. Notodoanimacion. ',
+      texto: 'Mpinson. (s.f.). Formatos y medios de exportación y difusión. ',
       tipo: 'Página web',
+      link: 'https://mpison.webs.upv.es/tecnoimag/pages/tema3_4.html#_ftn3',
+    },
+    {
+      texto: 'Mpinson. (s.f.). Tecnologías de la imagen [Web log post]. Upv. ',
+      tipo: 'Blog',
+      link: 'https://mpison.webs.upv.es/tecnoimag/pages/tema3_4.html#_ftn3',
+    },
+    {
+      texto:
+        'Alonso, N. (2020). Los 10 tipos de formato de video más utilizados. Grupo Atico34. ',
+      tipo: 'Articulo web',
+      link: 'https://protecciondatos-lopd.com/empresas/tipos-formato-video/',
+    },
+    {
+      texto:
+        'Matr1x. (2019). Diferencias entre formatos de video y códec (sencillo). Cubaba.',
+      tipo: 'Articulo web',
       link:
-        'https://www.notodoanimacion.es/rompiendo-las-reglas-de-la-composicion/',
-    },
-    {
-      texto:
-        'La ciencia del cine (2020). Reglas de Composición Cinematográficas. [Video]. YouTube. ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=t5MPOqnt60U',
-    },
-    {
-      texto:
-        'Ávila, L. (2017). Técnicas y principios de composición fotográfica en cine y series. [Video]. YouTube. ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=I7sS54EIEAg',
-    },
-    {
-      texto:
-        'notodoanimacion (2020). Técnicas de Composición Digital para VFX ❤️ Masterclass ONLINE. [Video].',
-      tipo: 'Video',
-      link: 'https://youtu.be/-XlIcITJbOU',
+        'https://matr1x.cubava.cu/diferencias-entre-formatos-de-video-y-codecs-sencillo/',
     },
     {
       texto:
@@ -293,13 +234,14 @@ export default {
         centro: 'Centro agropecuario La Granja - Regional Tolima',
       },
       {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital ',
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },
       {
-        nombre: 'Jhon Jairo Rodríguez Pérez',
-        cargo: 'Diseñador y evaluador instruccional',
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },

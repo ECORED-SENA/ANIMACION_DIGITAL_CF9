@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad did&amp;#225;ctica - Composici&amp;#243;n y edici&amp;#243;n" />
+              <option name="title_text" value="Actividad did&amp;#225;ctica - Producto final " />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1279,21 +1279,16 @@
         <slidelink slideid="_player.6iPYYXYye9N" displaytext="Escena sin título" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6iPYYXYye9N.60B7h4FKhhU" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6EdoTcI4Roc" displaytext="La composición es el proceso con el que se manipulan y combinan distintos elementos mediante técnicas digitales para crear una sola imagen." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5VN3UEYPsYy" displaytext="Los tres tipos de composición son: por diseño, por disposición y por simetría." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6nTJNIrwzv9" displaytext="La regla de los tercios se obtiene dividiendo un todo en dos partes, de forma que la parte menor es a la mayor como la mayor lo es al todo. " expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5c6EMqH0BIf" displaytext="La simetría se da cuando el peso visual de los elementos está distribuido de modo proporcional en el encuadre con respecto a uno de los ejes principales." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5qnL0WWaaVK" displaytext="La regla del horizonte parte de la regla de los tercios, esta regla indica que la línea del horizonte debe fijarse en el tercio inferior o superior de la imagen." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6h9sp9Pu2TT" displaytext="La profundidad de campo y enfoque se refiere a la unión de un objeto y sujeto en una imagen" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6mMzyOfWTHo" displaytext="La Rotoscopia es utilizada para separar personajes del fondo original en secuencias donde es imposible el uso de chromas. " expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5f9bpZTsJU2" displaytext="La corrección de color es sólo un aspecto técnico que no define la intencionalidad del plano, ni de las secuencias." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5v2XAT7IdDv" displaytext="Para realizar tareas de postproducción es necesario contar con un software distinto para cada una de ellas." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6V86xDuS86o" displaytext="La composición por nodos está organizada en: línea de tiempo, visor y paneles de propiedades " expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.61UgztWfgPl" displaytext="La edición crea un producto audiovisual a partir de la selección y unión de fragmentos de vídeo y audio en la línea del tiempo." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6cvtE4t2c3b" displaytext="El concepto de ritmo es la sensación dinámica dada por el flujo de movimiento, sonoro y visual en los diferentes planos, así como también por los efectos del montaje." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6ka4U4tFkCX" displaytext="Dentro de la narrativa audiovisual, el plano grúa es el que describe la cámara al acompañar al personaje o elemento durante su desplazamiento de un lugar a otro." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6IFgDhH0aXe" displaytext="El Foley sirve para resaltar o acentuar los sonidos que acompañan una acción y generalmente se realizan en ambientes controlados." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5obDeBSg6fd" displaytext="Música Diegética es aquella que existe al interior del universo narrativo, es decir, dentro de la historia." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6EdoTcI4Roc" displaytext="Un códec determina la manera en que se comprime y descomprime información de video y de audio." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5VN3UEYPsYy" displaytext="El H265 es el códec más popular por su amplia compatibilidad y porque la mayoría de las cámaras lo incluyen." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6nTJNIrwzv9" displaytext="El Apple ProRes es el códec que mejor permite archivos más compatibles con reproductores Web y YouTube. " expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5c6EMqH0BIf" displaytext="Los proxies son archivos temporales que hacen las veces de codificador." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5qnL0WWaaVK" displaytext="Animación es un formato de video que soporta canal alfa." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6h9sp9Pu2TT" displaytext=".Mp4 es el formato contenedor que usualmente se combina con H264." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6mMzyOfWTHo" displaytext="El formato FLV ya no es recomendado por la incompatibilidad con IOS." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5f9bpZTsJU2" displaytext="El Aspect Ratio más usado es el 4:3." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6V86xDuS86o" displaytext="Para realizar el renderizado se debe contar con un software distinto al de edición." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.61UgztWfgPl" displaytext="Hasta que no se realiza el render no puede decirse que el producto audiovisual está finalizado." expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
