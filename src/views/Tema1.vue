@@ -616,44 +616,6 @@ export default {
   outline: 4px white solid
   span
     color: #fff
-.bg-carrousel
-  position: relative
-  background-image: url('../assets/curso/SQ.svg')
-  background-repeat: no-repeat
-  background-size: cover
-  background-position: center
-  width: 100%
-  min-height: 207px
-  overflow: hidden
-  &:hover
-    .bg-carrousel_content
-      left: 0
-  &_content
-    width: 100%
-    background-color: #ffe799
-    transition: left .3s ease-in-out
-    position: absolute
-    height: 100%
-    left: 150%
-.bg-carrousel2
-  position: relative
-  background-image: url('../assets/curso/IM.svg')
-  background-repeat: no-repeat
-  background-size: cover
-  background-position: center
-  width: 100%
-  min-height: 207px
-  overflow: hidden
-  &:hover
-    .bg-carrousel2_content
-      left: 0
-  &_content
-    width: 100%
-    background-color: #ffe799
-    transition: left .3s ease-in-out
-    position: absolute
-    height: 100%
-    left: 150%
 .lista-ul--color li
   i
     color: $color-primario !important

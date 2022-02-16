@@ -286,25 +286,6 @@ export default {
       display: block
     background-color: #E59592
 
-.bg-carrousel2
-  position: relative
-  background-image: url('../assets/curso/IM.svg')
-  background-repeat: no-repeat
-  background-size: cover
-  background-position: center
-  width: 100%
-  min-height: 207px
-  overflow: hidden
-  &:hover
-    .bg-carrousel2_content
-      left: 0
-  &_content
-    width: 100%
-    background-color: #ffe799
-    transition: left .3s ease-in-out
-    position: absolute
-    height: 100%
-    left: 150%
 .tabs-a.color-primario .tabs-a__tab__selected
   color: white !important
 .tabs-a__tab
