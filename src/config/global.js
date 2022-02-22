@@ -67,11 +67,11 @@ export default {
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
+      // {
+      //   icono: 'fas fa-sitemap',
+      //   titulo: 'Sintesis',
+      //   nombreRuta: 'sintesis',
+      // },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -168,44 +168,6 @@ export default {
       link:
         'https://matr1x.cubava.cu/diferencias-entre-formatos-de-video-y-codecs-sencillo/',
     },
-    {
-      texto:
-        'Pueyo, A. (2020). Webinar: Técnicas de Composición Digital. [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=SxDTwFLq7Fk',
-    },
-    {
-      texto:
-        'Cortés, J. (2021). Los 8 Mejores Programas de Composición Digital. [Web log post]. Notodoanimacion. ',
-      tipo: 'Pagina web',
-      link:
-        'https://digitalsynopsis.com/design/cinema-palettes-famous-movie-colors/',
-    },
-    {
-      texto:
-        'Notodoanimacion. (2019). Tutoriales Digital Matte Painting – El Arte de Jaime Jasso. [Web log post]. ',
-      tipo: 'Blog ',
-      link:
-        'https://www.notodoanimacion.es/tutoriales/tutoriales-de-matte-painting/',
-    },
-    {
-      texto:
-        'Hoy Grabo (2019). Diseño de sonido para audiovisuales: qué es y cómo se hace. [Video]. YouTube.  ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=CkiPtW8IZT0',
-    },
-    {
-      texto: 'Treintaycinco. (s.f.). Talent Makers 35mm.',
-      tipo: 'Página web',
-      link: 'https://35mm.es/fases-etapas-postproduccion-audio/',
-    },
-    {
-      texto:
-        'Valerga, A. (2020). Los mejores programas de edición de audio. [Web log post]. Crehana.',
-      tipo: 'Blog',
-      link:
-        'https://www.crehana.com/pe/blog/video/mejores-programas-edicion-audio/#grg-band',
-    },
   ],
   creditos: {
     liderEquipo: [
@@ -271,13 +233,54 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Daniela Muñoz Bedoya',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Adriana Suarez ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Emilsen Alfonso Bautista',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
