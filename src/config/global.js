@@ -215,11 +215,11 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
+      // {
+      //   nombre: 'Leyson Fabian Castaño Perez',
+      //   cargo: 'Soporte organizacional',
+      //   centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      // },
       {
         nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web',

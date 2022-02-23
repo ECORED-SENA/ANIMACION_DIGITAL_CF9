@@ -178,22 +178,22 @@
             i.fas.fa-circle
             p
               b MPEG-1:
-              | Estándar inicial de compresión de audio y video. Usado después como la norma para CD de video incluye el popular formato de compresión de audio capa 3 (MP3).
+              | estándar inicial de compresión de audio y video. Usado después como la norma para CD de video incluye el popular formato de compresión de audio capa 3 (MP3).
           li 
             i.fas.fa-circle
             p
               b MPEG-2: 
-              | Normas para audio y video para difusión en calidad de televisión. Utilizado para servicios de TV por satélite, señales de televisión digital por cable y (con ligeras modificaciones) para los discos de video DVD.
+              | normas para audio y video para difusión en calidad de televisión. Utilizado para servicios de TV por satélite, señales de televisión digital por cable y (con ligeras modificaciones) para los discos de video DVD.
           li 
             i.fas.fa-circle
             p
               b MPEG-3: 
-              | Diseñado originalmente para HDTV (Televisión de Alta Definición), pero abandonado posteriormente en favor de MPEG-2.
+              | diseñado originalmente para HDTV (Televisión de Alta Definición), pero abandonado posteriormente en favor de MPEG-2.
           li 
             i.fas.fa-circle
             p
               b MPEG-4: 
-              | Expande MPEG-1 para soportar "objetos" audio/video, contenido 3D, codificación de baja velocidad binaria y soporte para gestión de derechos digitales (protección de <i>copyright</i>) actualmente se emplea como <i>códec</i> HDTV en detrimento de MPEG-2.
+              | expande MPEG-1 para soportar "objetos" audio/video, contenido 3D, codificación de baja velocidad binaria y soporte para gestión de derechos digitales (protección de <i>copyright</i>) actualmente se emplea como <i>códec</i> HDTV en detrimento de MPEG-2.
     .row.mb-2
       .col-md-1.col-sm-2
         .tarjeta.bg--2-claro3.p-2.rounded-3.img-color
