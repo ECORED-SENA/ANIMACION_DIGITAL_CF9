@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Producto final',
     descripcionCurso:
-      'El estudio de este componente afianzará al aprendiz en el proceso de postproducción de animaciones y productos audiovisuales, así mismo, le aportará elementos conceptuales y operativos del manejo y aplicación de herramientas técnicas: formatos de exportación, resolución de pantalla, aspect ratio, configuración de plataformas de distribución, renderizado, entre otras.',
+      'El estudio de este componente afianzará al aprendiz en el proceso de postproducción de animaciones y productos audiovisuales, así mismo, le aportará elementos conceptuales y operativos del manejo y aplicación de herramientas técnicas: formatos de exportación, resolución de pantalla, <em>aspect ratio</em>, configuración de plataformas de distribución, renderizado, entre otras.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -163,7 +163,7 @@ export default {
     },
     {
       texto:
-        'Matr1x. (2019). Diferencias entre formatos de video y códec (sencillo). Cubaba.',
+        'Matr1x. (2019). Diferencias entre formatos de video y códec (sencillo). Cubava.',
       tipo: 'Articulo web',
       link:
         'https://matr1x.cubava.cu/diferencias-entre-formatos-de-video-y-codecs-sencillo/',
