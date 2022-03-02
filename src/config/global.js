@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '<i>Códec</i> y tipos de <i>códec</i>',
+            titulo: 'Códec y tipos de <>códec',
             hash: 't_1_1',
           },
           {
@@ -153,7 +153,7 @@ export default {
     {
       texto: 'Mpinson. (s.f.). Tecnologías de la imagen [Web log post]. Upv. ',
       tipo: 'Blog',
-      link: 'https://mpison.webs.upv.es/tecnoimag/pages/tema3_4.html#_ftn3',
+      link: 'https://mpison.webs.upv.es/tecnoimag/index.html',
     },
     {
       texto:
