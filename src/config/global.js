@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Códec y tipos de <>códec',
+            titulo: 'Códec y tipos de códec',
             hash: 't_1_1',
           },
           {
